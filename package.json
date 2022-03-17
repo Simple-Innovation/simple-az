@@ -36,6 +36,7 @@
   "homepage": "https://github.com/Simple-Innovation/simple-az#readme",
   "devDependencies": {
     "@types/jest": "^27.4.1",
+    "@types/node-forge": "^1.0.1",
     "dotenv": "^16.0.0",
     "jest": "^27.5.1",
     "rimraf": "^3.0.2",
@@ -44,6 +45,8 @@
   },
   "dependencies": {
     "@azure/identity": "^2.0.4",
-    "@azure/keyvault-certificates": "^4.3.0"
+    "@azure/keyvault-certificates": "^4.3.0",
+    "@azure/keyvault-secrets": "^4.3.0",
+    "node-forge": "^1.2.1"
   }
 }

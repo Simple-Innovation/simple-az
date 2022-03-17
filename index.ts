@@ -1,1 +1,1 @@
-export { getThumbprint } from "./src/getThumbprint";
+export { getCertificatePrivateKey, getCertificateThumbprint } from "./src/keyvault.js";
