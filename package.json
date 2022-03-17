@@ -1,6 +1,6 @@
 {
   "name": "simple-az",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Interact with Azure via TypeScript and Node",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
