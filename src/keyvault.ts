@@ -11,7 +11,7 @@ import {
   KeyVaultCertificate,
 } from "@azure/keyvault-certificates";
 import { KeyVaultSecret, SecretClient } from "@azure/keyvault-secrets";
-import { asn1, pki, util } from "node-forge";
+const { asn1, pki, util } = pkg;
 
 export async function getCertificateThumbprint(
   credential: ManagedIdentityCredential | DefaultAzureCredential,
